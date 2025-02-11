@@ -32,8 +32,8 @@ The project follows a structured approach to build and evaluate the **Hybrid Seq
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/soudeep-cse/Soybean_dataset_Paper.git
-   cd Soybean_dataset_Paper
+   git clone https://github.com/Abrar2652/soybean-leaf-disease-classification.git
+   cd soybean-leaf-disease-classification
    ```
 
 2. **Download the dataset**:
