@@ -1,6 +1,6 @@
 # Hybrid Sequential CNN-GNN Model for Soybean Leaf Disease Classification
 
-This repository contains the implementation of a **Hybrid Sequential CNN-GNN model** designed for **Soybean Leaf Disease Classification**.
+This repository contains the implementation of a **Hybrid Sequential MobileNetV2+GraphSAGE model** designed for **Soybean Leaf Disease Classification**.
 
 ## Dataset
 
@@ -14,7 +14,7 @@ The following dataset was used in this project:
 The project follows a structured approach to build and evaluate the **Hybrid Sequential CNN-GNN model**, leveraging:
 
 - **MobileNetV2** for feature extraction.
-- **Graph Convolutional Network (GCN)** for relational learning.
+- **Graph SAmple and aggreGatE (GraphSAGE)** for relational learning.
 - **Explainable AI (XAI)** for model interpretation, including **Grad-CAM** and **Eigen-CAM**.
 
 ## Repository Structure
@@ -22,7 +22,7 @@ The project follows a structured approach to build and evaluate the **Hybrid Seq
 - `cnn-soybean.ipynb` - CNN-based model using MobileNetV2.
 - `gnn-soybean.ipynb` - GNN-based approach for graph-based disease classification.
 - `parallel-cnn-gnn.ipynb` - Parallel architecture combining CNN and GNN.
-- `seq-cnn-gnn.ipynb` - Proposed **Hybrid Sequential CNN-GNN model**.
+- `seq-cnn-gnn-benchmarking.ipynb` - Proposed **Hybrid Sequential MobileNetV2+GraphSAGE model** and the other models.
 - `seq-cnn-gnn-xai.ipynb` - Explainable AI (XAI) version of the sequential CNN-GNN model, including **Grad-CAM** and **Eigen-CAM**.
 - `seq-gnn-cnn.ipynb` - Alternate sequence where GNN is processed before CNN.
 - `traditional-ml.ipynb` - Baseline results using traditional machine learning classifiers.
